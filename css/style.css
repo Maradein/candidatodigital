@@ -350,13 +350,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .servicio-card--featured {
-  background: var(--azul);
-  border-color: var(--azul);
-  color: var(--blanco);
+  background: linear-gradient(145deg, #0d2147 0%, #1a3a6b 100%);
+  border-color: #1a3a6b;
+  color: #ffffff;
 }
-.servicio-card--featured h3,
-.servicio-card--featured p,
-.servicio-card--featured li { color: rgba(255,255,255,0.9); }
+.servicio-card--featured h3 { color: #ffffff !important; }
+.servicio-card--featured p  { color: rgba(255,255,255,0.88) !important; }
+.servicio-card--featured li { color: rgba(255,255,255,0.88) !important; }
 
 .servicio-card__badge {
   position: absolute;
