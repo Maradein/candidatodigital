@@ -688,6 +688,47 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ===========================
+   FAQ
+   =========================== */
+.faq {
+  padding: var(--section-pad) 0;
+  background: var(--gris-claro);
+}
+
+.faq__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.faq__item {
+  background: var(--blanco);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  border-left: 4px solid var(--azul);
+  transition: box-shadow 0.2s;
+}
+.faq__item:hover { box-shadow: var(--shadow); }
+
+.faq__item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--azul);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+.faq__item p {
+  font-size: 15px;
+  color: var(--gris);
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .faq__grid { grid-template-columns: 1fr; }
+}
+
+/* ===========================
    CONTACTO
    =========================== */
 .contacto {
