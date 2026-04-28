@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gestión de redes sociales y estrategia digital para candidatos y políticos en Toledo y Castilla-La Mancha. Prepara tu campaña para las elecciones municipales 2027." />
+  <meta name="keywords" content="redes sociales políticos Toledo, estrategia digital candidatos, campaña electoral digital, gestión RRSS políticos Illescas, marketing político Toledo" />
+  <meta name="author" content="CandidatoDigital" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:title" content="CandidatoDigital — Tu campaña empieza aquí" />
+  <meta property="og:description" content="Estrategia digital y redes sociales para políticos en Toledo. Elecciones 2027." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://candidatodigital.es" />
+  <title>CandidatoDigital — Estrategia digital para políticos en Toledo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+      <nav class="nav__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#por-que">Por qué ahora</a>
+        <a href="blog/">Blog</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contacto" class="btn btn--nav">Contactar</a>
+      </nav>
+      <button class="nav__burger" aria-label="Menú" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#servicios" onclick="toggleMenu()">Servicios</a>
+      <a href="#por-que" onclick="toggleMenu()">Por qué ahora</a>
+      <a href="blog/" onclick="toggleMenu()">Blog</a>
+      <a href="#recursos" onclick="toggleMenu()">Recursos</a>
+      <a href="#contacto" onclick="toggleMenu()">Contactar</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__badge">Elecciones municipales 2027 · Toledo</div>
+      <h1 class="hero__title">Tu campaña<br /><span>empieza aquí.</span></h1>
+      <p class="hero__sub">Las redes sociales ya no son opcionales. Son el campo de batalla donde se ganan o se pierden los votos. Te ayudo a estar donde están tus vecinos.</p>
+      <div class="hero__cta">
+        <a href="#contacto" class="btn btn--primary">Quiero preparar mi campaña</a>
+        <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat">
+          <strong>+78%</strong>
+          <span>de votantes consultan RRSS antes de decidir</span>
+        </div>
+        <div class="stat">
+          <strong>2027</strong>
+          <span>elecciones municipales y autonómicas en España</span>
+        </div>
+        <div class="stat">
+          <strong>Toledo</strong>
+          <span>enfocado en tu provincia, con conocimiento local</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__bg"></div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Servicios</span>
+        <h2>Todo lo que necesitas<br />para competir en digital</h2>
+        <p>Sin tecnicismos. Sin perder el tiempo. Resultados reales para candidatos reales.</p>
+      </div>
+      <div class="servicios__grid">
+
+        <div class="servicio-card">
+          <div class="servicio-card__icon">📱</div>
+          <h3>Gestión de Redes Sociales</h3>
+          <p>Me encargo de tus perfiles en Instagram, Facebook, X y TikTok. Publico, respondo, crezco tu comunidad. Tú te centras en el municipio.</p>
+          <ul>
+            <li>Estrategia de contenido mensual</li>
+            <li>Publicaciones diarias o semanales</li>
+            <li>Gestión de comentarios y mensajes</li>
+            <li>Informes de resultados</li>
+          </ul>
+          <a href="#contacto" class="servicio-card__link">Solicitar presupuesto →</a>
+        </div>
+
+        <div class="servicio-card servicio-card--featured">
+          <div class="servicio-card__badge">Más solicitado</div>
+          <div class="servicio-card__icon">🎯</div>
+          <h3>Estrategia Digital de Campaña</h3>
+          <p>Plan completo para los 6 meses anteriores a las elecciones. Mensajes, timing, públicos, plataformas. Todo coordinado.</p>
+          <ul>
+            <li>Análisis de competencia local</li>
+            <li>Calendario editorial de campaña</li>
+            <li>Mensajes clave y posicionamiento</li>
+            <li>Gestión de crisis en RRSS</li>
+          </ul>
+          <a href="#contacto" class="servicio-card__link">Solicitar presupuesto →</a>
+        </div>
+
+        <div class="servicio-card">
+          <div class="servicio-card__icon">🎬</div>
+          <h3>Producción de Contenido</h3>
+          <p>Vídeos cortos, carruseles, stories, reels. Contenido que conecta con los vecinos y transmite tus propuestas de forma clara.</p>
+          <ul>
+            <li>Guión y storytelling político</li>
+            <li>Edición de vídeo para RRSS</li>
+            <li>Diseño gráfico y carruseles</li>
+            <li>Adaptación a cada plataforma</li>
+          </ul>
+          <a href="#contacto" class="servicio-card__link">Solicitar presupuesto →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- POR QUÉ AHORA -->
+  <section class="porque" id="por-que">
+    <div class="container porque__inner">
+      <div class="porque__text">
+        <span class="section-tag section-tag--light">El contexto</span>
+        <h2>El electorado ha cambiado.<br />¿Está tu campaña preparada?</h2>
+        <p>El panorama político se mueve más rápido que las estrategias de campaña. Los votantes se informan de otra manera, los jóvenes tienen nuevas prioridades, y el electorado de Toledo en 2027 no es el mismo de 2023.</p>
+        <p>Los candidatos que lleguen sin presencia digital real van a perder votos que merecen ganar. No por sus propuestas — sino por no estar donde está la gente.</p>
+        <div class="porque__puntos">
+          <div class="punto">
+            <span class="punto__icon">✓</span>
+            <div>
+              <strong>Juventud reposicionada</strong>
+              <p>Intereses que van del laicismo al catolicismo, de lo global a lo local. Narrativas nuevas que hay que saber leer.</p>
+            </div>
+          </div>
+          <div class="punto">
+            <span class="punto__icon">✓</span>
+            <div>
+              <strong>Electorado hiperlocal</strong>
+              <p>En municipios pequeños, una conversación en redes puede valer más que un mitin. La proximidad es el mensaje.</p>
+            </div>
+          </div>
+          <div class="punto">
+            <span class="punto__icon">✓</span>
+            <div>
+              <strong>Ventana de oportunidad</strong>
+              <p>Queda tiempo para construir comunidad antes de la campaña. Empezar hoy es una ventaja competitiva real.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="porque__visual">
+        <div class="porque__card">
+          <p class="porque__quote">"Me dijeron que con el boca a boca era suficiente. Perdí por 40 votos."</p>
+          <span class="porque__autor">— Candidato municipal, Toledo 2023</span>
+        </div>
+        <div class="porque__card porque__card--cta">
+          <p>En 2027 eso no puede volver a pasar.</p>
+          <a href="#contacto" class="btn btn--primary">Hablamos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="proceso">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Cómo trabajamos</span>
+        <h2>Simple. Sin tecnicismos.</h2>
+      </div>
+      <div class="proceso__steps">
+        <div class="step">
+          <div class="step__num">01</div>
+          <h3>Primera llamada gratuita</h3>
+          <p>30 minutos. Analizamos tu situación actual, tus objetivos y qué necesitas realmente. Sin compromiso.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">02</div>
+          <h3>Propuesta personalizada</h3>
+          <p>Recibo tu contexto local (municipio, partido, competencia) y diseño una estrategia específica para ti.</p>
+        </div>
+        <div class="step__arrow">→</div>
+        <div class="step">
+          <div class="step__num">03</div>
+          <h3>Arrancamos</h3>
+          <p>En menos de una semana tienes presencia digital activa, contenido publicado y una hoja de ruta clara hasta 2027.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS -->
+  <section class="recursos" id="recursos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recursos gratuitos</span>
+        <h2>Descarga, aprende, aplica.</h2>
+        <p>Guías prácticas para políticos que quieren entender el mundo digital sin depender de nadie.</p>
+      </div>
+      <div class="recursos__grid">
+        <div class="recurso-card">
+          <div class="recurso-card__icon">📋</div>
+          <span class="recurso-card__tag">PDF Gratuito</span>
+          <h3>Guía de campaña digital municipal 2027</h3>
+          <p>10 pasos para arrancar tu presencia en redes antes de las elecciones. Sin jerga técnica.</p>
+          <a href="#lead-magnet" class="btn btn--primary btn--sm" onclick="openLeadMagnet()">Descargar gratis</a>
+        </div>
+        <div class="recurso-card">
+          <div class="recurso-card__icon">📅</div>
+          <span class="recurso-card__tag">Plantilla gratuita</span>
+          <h3>Calendario editorial para candidatos</h3>
+          <p>Plantilla lista para usar. Qué publicar, cuándo y en qué red. Para los 3 meses previos a campaña.</p>
+          <a href="#lead-magnet" class="btn btn--primary btn--sm" onclick="openLeadMagnet()">Descargar gratis</a>
+        </div>
+        <div class="recurso-card">
+          <div class="recurso-card__icon">🗞️</div>
+          <span class="recurso-card__tag">Blog</span>
+          <h3>Artículos sobre política digital</h3>
+          <p>Análisis, tendencias y ejemplos reales de campañas que funcionaron (y las que no).</p>
+          <a href="blog/" class="btn btn--ghost btn--sm">Ir al blog →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="container sobre-mi__inner">
+      <div class="sobre-mi__img">
+        <div class="sobre-mi__placeholder">
+          <span>Tu foto aquí</span>
+        </div>
+      </div>
+      <div class="sobre-mi__text">
+        <span class="section-tag">Sobre mí</span>
+        <h2>Un gestor de comunidades<br />con raíces en Toledo.</h2>
+        <p>Trabajo desde Illescas, conozco la provincia, entiendo cómo se habla aquí y qué mueve a la gente. No soy una agencia de Madrid que vende paquetes genéricos.</p>
+        <p>También dirijo <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a>, plataforma de formación para Community Managers. Sé lo que funciona en redes porque lo enseño y lo practico cada día.</p>
+        <div class="sobre-mi__links">
+          <a href="https://gestorsocial.es" target="_blank" rel="noopener" class="btn btn--ghost">GestorSocial.es</a>
+          <a href="#contacto" class="btn btn--primary">Trabajemos juntos</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="contacto" id="contacto">
+    <div class="container contacto__inner">
+      <div class="contacto__text">
+        <span class="section-tag section-tag--light">Contacto</span>
+        <h2>Hablamos.<br />Sin compromiso.</h2>
+        <p>Primera consulta gratuita. Cuéntame tu municipio, tu partido, tu situación. Te digo qué haría yo.</p>
+        <div class="contacto__info">
+          <div class="info-item">
+            <span>📍</span>
+            <span>Illescas, Toledo — Castilla-La Mancha</span>
+          </div>
+          <div class="info-item">
+            <span>🌐</span>
+            <a href="https://gestorsocial.es" target="_blank" rel="noopener">gestorsocial.es</a>
+          </div>
+        </div>
+      </div>
+      <div class="contacto__form">
+        <div data-fs-success class="form-success" style="display:none;">
+          <span>✓</span>
+          <h3>Mensaje recibido</h3>
+          <p>Te respondo en menos de 24 horas.</p>
+        </div>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="nombre">Nombre y cargo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej: María López, candidata a la alcaldía de Yeles" required data-fs-field />
+            <span class="fs-field-error" data-fs-error="nombre"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required data-fs-field />
+            <span class="fs-field-error" data-fs-error="email"></span>
+          </div>
+          <div class="form-group">
+            <label for="municipio">Municipio</label>
+            <input type="text" id="municipio" name="municipio" placeholder="Municipio o provincia" required data-fs-field />
+            <span class="fs-field-error" data-fs-error="municipio"></span>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Cuéntame tu situación</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Dónde estás ahora en redes sociales? ¿Qué necesitas?" required data-fs-field></textarea>
+            <span class="fs-field-error" data-fs-error="mensaje"></span>
+          </div>
+          <input type="hidden" name="_subject" value="Nuevo contacto — CandidatoDigital" />
+          <span class="fs-field-error" data-fs-error style="margin-bottom:10px;"></span>
+          <button type="submit" class="btn btn--primary btn--full" data-fs-submit-btn>Enviar mensaje</button>
+          <p class="form-legal">Sin spam. Tus datos no se ceden a terceros.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER COOKIES -->
+  <div class="cookie-banner" id="cookieBanner">
+    <div class="cookie-banner__text">
+      <strong>Usamos cookies</strong> para analítica y publicidad. Puedes aceptar todas o solo las necesarias. <a href="cookies.html">Más info</a>
+    </div>
+    <div class="cookie-banner__btns">
+      <button class="btn btn--ghost btn--sm" onclick="rejectCookies()">Solo necesarias</button>
+      <button class="btn btn--primary btn--sm" onclick="acceptCookies()">Aceptar todas</button>
+    </div>
+  </div>
+
+  <!-- LEAD MAGNET MODAL -->
+  <div class="modal" id="leadModal" style="display:none;" onclick="closeLeadMagnet(event)">
+    <div class="modal__box">
+      <button class="modal__close" onclick="closeLeadMagnet()">✕</button>
+      <div class="modal__icon">📋</div>
+      <h3>Descarga gratuita</h3>
+      <p>Déjame tu email y te envío la guía + la plantilla de calendario.</p>
+      <div data-fs-success style="display:none; text-align:center; padding:16px 0;">
+        <p style="font-size:32px;">✓</p>
+        <p style="font-weight:700; color:#1a3a6b;">¡Enviado! Revisa tu email.</p>
+        <p style="font-size:13px; color:#8888aa; margin-top:6px;">Si no lo ves, mira la carpeta de spam.</p>
+      </div>
+      <form id="leadForm">
+        <input type="text" name="nombre" placeholder="Tu nombre" required data-fs-field />
+        <span class="fs-field-error" data-fs-error="nombre"></span>
+        <input type="email" name="email" placeholder="tu@email.com" required data-fs-field />
+        <span class="fs-field-error" data-fs-error="email"></span>
+        <input type="hidden" name="_subject" value="Nueva descarga de recurso — CandidatoDigital" />
+        <span class="fs-field-error" data-fs-error style="margin-bottom:8px;"></span>
+        <button type="submit" class="btn btn--primary btn--full" data-fs-submit-btn>Enviar y descargar</button>
+      </form>
+      <p class="form-legal">Sin spam. Solo recursos útiles sobre política digital.</p>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+        <p>Estrategia digital para políticos en Toledo y Castilla-La Mancha.</p>
+        <p>Un proyecto de <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a></p>
+      </div>
+      <div class="footer__links">
+        <h4>Web</h4>
+        <a href="#servicios">Servicios</a>
+        <a href="#por-que">Por qué ahora</a>
+        <a href="blog/">Blog</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer__links">
+        <h4>Legal</h4>
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="privacidad.html">Política de privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+      <div class="footer__links">
+        <h4>También en</h4>
+        <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a>
+        <a href="#sobre-mi">Portfolio</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 CandidatoDigital · Illescas, Toledo · <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Formspree Ajax init
+    window.formspree = window.formspree || function() { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#contactForm', formId: 'mqewvvjb' });
+    formspree('initForm', { formElement: '#leadForm',    formId: 'mqewvvjb' });
+
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('nav__mobile--open');
+    }
+
+    function openLeadMagnet() {
+      document.getElementById('leadModal').style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLeadMagnet(e) {
+      if (!e || e.target === document.getElementById('leadModal')) {
+        document.getElementById('leadModal').style.display = 'none';
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 20);
+    });
+
+    function initCookieBanner() {
+      if (!localStorage.getItem('cookie_consent')) {
+        document.getElementById('cookieBanner').style.display = 'flex';
+      }
+    }
+    function acceptCookies() {
+      localStorage.setItem('cookie_consent', 'all');
+      document.getElementById('cookieBanner').style.display = 'none';
+    }
+    function rejectCookies() {
+      localStorage.setItem('cookie_consent', 'necessary');
+      document.getElementById('cookieBanner').style.display = 'none';
+    }
+    initCookieBanner();
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <title>Aviso Legal — CandidatoDigital</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/legal.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+      <nav class="nav__links">
+        <a href="/#servicios">Servicios</a>
+        <a href="/#por-que">Por qué ahora</a>
+        <a href="/blog/">Blog</a>
+        <a href="/#recursos">Recursos</a>
+        <a href="/#contacto" class="btn btn--nav">Contactar</a>
+      </nav>
+      <button class="nav__burger" aria-label="Menú" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="/#servicios" onclick="toggleMenu()">Servicios</a>
+      <a href="/#por-que" onclick="toggleMenu()">Por qué ahora</a>
+      <a href="/blog/" onclick="toggleMenu()">Blog</a>
+      <a href="/#recursos" onclick="toggleMenu()">Recursos</a>
+      <a href="/#contacto" onclick="toggleMenu()">Contactar</a>
+    </div>
+  </header>
+
+  <section class="legal-hero">
+    <div class="container">
+      <h1>Aviso Legal</h1>
+      <p>Última actualización: abril de 2026</p>
+    </div>
+  </section>
+
+  <div class="legal-body container">
+
+    <h2>1. Titular del sitio web</h2>
+    <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se informa de los siguientes datos:</p>
+    <ul>
+      <li><strong>Titular:</strong> Alejandro Prados Zazo</li>
+      <li><strong>NIF/NIE:</strong> 03943383X</li>
+      <li><strong>Domicilio:</strong> Illescas, Toledo, España</li>
+      <li><strong>Email de contacto:</strong> <a href="mailto:apradoszazo@gmail.com">apradoszazo@gmail.com</a></li>
+      <li><strong>Sitio web:</strong> https://candidatodigital.es</li>
+    </ul>
+
+    <h2>2. Objeto</h2>
+    <p>El presente Aviso Legal regula el acceso y uso del sitio web <strong>candidatodigital.es</strong> (en adelante, "el Sitio Web"), cuya titularidad corresponde al responsable indicado en el apartado anterior.</p>
+    <p>El acceso al Sitio Web implica la aceptación de las presentes condiciones legales. El titular se reserva el derecho a modificar el contenido del presente Aviso Legal sin previo aviso.</p>
+
+    <h2>3. Propiedad intelectual e industrial</h2>
+    <p>Todos los contenidos del Sitio Web — textos, imágenes, diseño gráfico, código fuente y demás elementos — son propiedad del titular o cuenta con licencia para su uso, y están protegidos por la legislación española e internacional de propiedad intelectual e industrial.</p>
+    <p>Queda prohibida la reproducción total o parcial, distribución, comunicación pública o transformación de los contenidos sin autorización expresa del titular.</p>
+
+    <h2>4. Responsabilidad</h2>
+    <p>El titular no garantiza la disponibilidad continua del Sitio Web ni la ausencia de errores en los contenidos. La información publicada tiene carácter meramente informativo y no constituye asesoramiento profesional de ningún tipo.</p>
+    <p>El titular no se hace responsable de los daños derivados del uso del Sitio Web ni de los contenidos de terceros a los que se pueda acceder mediante enlaces externos.</p>
+
+    <h2>5. Enlaces externos</h2>
+    <p>El Sitio Web puede contener enlaces a sitios web de terceros, entre ellos <a href="https://gestorsocial.es" target="_blank" rel="noopener">gestorsocial.es</a>. El titular no controla dichos sitios y no asume responsabilidad por sus contenidos, políticas de privacidad o prácticas.</p>
+
+    <h2>6. Legislación aplicable y jurisdicción</h2>
+    <p>Las presentes condiciones se rigen por la legislación española. Para la resolución de cualquier controversia derivada del acceso o uso del Sitio Web, las partes se someten a la jurisdicción de los Juzgados y Tribunales de Toledo, salvo que la normativa aplicable establezca otro fuero.</p>
+
+    <div class="legal-nav">
+      <a href="privacidad.html">Política de Privacidad →</a>
+      <a href="cookies.html">Política de Cookies →</a>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+        <p>Estrategia digital para políticos en Toledo y Castilla-La Mancha.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Legal</h4>
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="privacidad.html">Privacidad</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+      <div class="footer__links">
+        <h4>Web</h4>
+        <a href="/#servicios">Servicios</a>
+        <a href="/blog/">Blog</a>
+        <a href="/#contacto">Contacto</a>
+      </div>
+      <div class="footer__links">
+        <h4>También en</h4>
+        <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 CandidatoDigital · Illescas, Toledo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('nav__mobile--open');
+    }
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 20);
+    });
+  </script>
+</body>
+</html>

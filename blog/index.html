@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta name="description" content="Blog sobre estrategia digital para políticos. Consejos, tendencias y análisis para candidatos en Toledo y Castilla-La Mancha de cara a las elecciones municipales 2027." />
+  <title>Blog — CandidatoDigital</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/blog.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+      <nav class="nav__links">
+        <a href="/#servicios">Servicios</a>
+        <a href="/#por-que">Por qué ahora</a>
+        <a href="/blog/" class="nav__active">Blog</a>
+        <a href="/#recursos">Recursos</a>
+        <a href="/#contacto" class="btn btn--nav">Contactar</a>
+      </nav>
+      <button class="nav__burger" aria-label="Menú" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="/#servicios" onclick="toggleMenu()">Servicios</a>
+      <a href="/#por-que" onclick="toggleMenu()">Por qué ahora</a>
+      <a href="/blog/" onclick="toggleMenu()">Blog</a>
+      <a href="/#recursos" onclick="toggleMenu()">Recursos</a>
+      <a href="/#contacto" onclick="toggleMenu()">Contactar</a>
+    </div>
+  </header>
+
+  <section class="blog-hero">
+    <div class="container">
+      <span class="section-tag">Blog</span>
+      <h1>Política digital.<br />Sin rodeos.</h1>
+      <p>Estrategia, RRSS, campañas y tendencias para candidatos que quieren ganar en 2027.</p>
+    </div>
+  </section>
+
+  <section class="blog-lista">
+    <div class="container">
+
+      <!-- ARTÍCULO DESTACADO -->
+      <div class="blog-featured">
+        <div class="blog-featured__meta">
+          <span class="blog-tag">Estrategia</span>
+          <span class="blog-date">Abril 2026</span>
+        </div>
+        <h2><a href="redes-sociales-politicos-toledo-2027.html">Por qué los políticos de Toledo no pueden llegar a 2027 sin redes sociales</a></h2>
+        <p>El electorado ha cambiado. Los vecinos buscan a sus candidatos en Instagram y TikTok antes de leer el programa electoral. Si no estás ahí, no existes. Análisis de la situación digital en los municipios toledanos.</p>
+        <a href="redes-sociales-politicos-toledo-2027.html" class="blog-featured__link">Leer artículo →</a>
+      </div>
+
+      <!-- GRID DE ARTÍCULOS -->
+      <div class="blog-grid">
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">Redes sociales</span>
+            <span class="blog-date">Marzo 2026</span>
+          </div>
+          <h3><a href="#">Instagram para candidatos: qué publicar cada semana</a></h3>
+          <p>Guía práctica para mantener un perfil activo sin dedicarle horas. Tipos de contenido, horarios y ejemplos reales.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">TikTok</span>
+            <span class="blog-date">Febrero 2026</span>
+          </div>
+          <h3><a href="#">¿Debe un alcalde de pueblo estar en TikTok?</a></h3>
+          <p>Respuesta corta: depende. Respuesta larga: aquí dentro. Analizamos cuándo tiene sentido y cuándo es un error.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">Campaña</span>
+            <span class="blog-date">Enero 2026</span>
+          </div>
+          <h3><a href="#">Errores digitales que hundieron campañas municipales en 2023</a></h3>
+          <p>Casos reales (sin nombres) de lo que no hay que hacer. Desde respuestas en caliente hasta perfiles abandonados.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">Juventud</span>
+            <span class="blog-date">Diciembre 2025</span>
+          </div>
+          <h3><a href="#">El voto joven en Toledo: qué ha cambiado y cómo llegar a él</a></h3>
+          <p>El péndulo ha oscilado. Los intereses de la juventud toledana no son los de hace cuatro años. Claves para conectar.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">Herramientas</span>
+            <span class="blog-date">Noviembre 2025</span>
+          </div>
+          <h3><a href="#">Las 5 herramientas gratuitas que todo candidato debería usar</a></h3>
+          <p>Canva, Buffer, Google Alerts y más. Sin coste, fáciles de aprender, resultados visibles desde el primer día.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card__meta">
+            <span class="blog-tag">Estrategia</span>
+            <span class="blog-date">Octubre 2025</span>
+          </div>
+          <h3><a href="#">Cómo construir comunidad online 12 meses antes de las elecciones</a></h3>
+          <p>No se construye audiencia en campaña. Se construye antes. Plan mes a mes para llegar a 2027 con base sólida.</p>
+          <a href="#" class="blog-card__link">Leer →</a>
+        </article>
+
+      </div>
+
+      <!-- SIDEBAR / NEWSLETTER -->
+      <div class="blog-newsletter">
+        <div class="blog-newsletter__box">
+          <span class="blog-newsletter__icon">📬</span>
+          <h3>Recibe cada artículo nuevo</h3>
+          <p>Un email cada vez que publique. Nada de spam. Solo política digital práctica.</p>
+          <p data-fs-success style="display:none; font-size:13px; color:#1a3a6b; font-weight:600; margin-top:10px;">✓ Apuntado. Te aviso en el próximo artículo.</p>
+          <form id="newsletterForm" class="blog-newsletter__form">
+            <input type="email" name="email" placeholder="tu@email.com" required data-fs-field />
+            <input type="hidden" name="_subject" value="Nueva suscripción al blog — CandidatoDigital" />
+            <button type="submit" class="btn btn--primary btn--sm" data-fs-submit-btn>Suscribirme</button>
+          </form>
+          <span class="fs-field-error" data-fs-error style="margin-top:8px;"></span>
+        </div>
+        <div class="blog-newsletter__box blog-newsletter__box--cta">
+          <h3>¿Eres CM y quieres trabajar con políticos?</h3>
+          <p>En GestorSocial.es tienes la formación completa para especializarte en comunicación política.</p>
+          <a href="https://gestorsocial.es" target="_blank" rel="noopener" class="btn btn--ghost">Ver GestorSocial.es →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="/" class="nav__logo">Candidato<span>Digital</span></a>
+        <p>Estrategia digital para políticos en Toledo y Castilla-La Mancha.</p>
+        <p>Un proyecto de <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a></p>
+      </div>
+      <div class="footer__links">
+        <h4>Web</h4>
+        <a href="/#servicios">Servicios</a>
+        <a href="/#por-que">Por qué ahora</a>
+        <a href="/blog/">Blog</a>
+        <a href="/#contacto">Contacto</a>
+      </div>
+      <div class="footer__links">
+        <h4>Legal</h4>
+        <a href="/aviso-legal.html">Aviso legal</a>
+        <a href="/privacidad.html">Privacidad</a>
+        <a href="/cookies.html">Cookies</a>
+      </div>
+      <div class="footer__links">
+        <h4>También en</h4>
+        <a href="https://gestorsocial.es" target="_blank" rel="noopener">GestorSocial.es</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2026 CandidatoDigital · Illescas, Toledo</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.formspree = window.formspree || function() { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#newsletterForm', formId: 'mqewvvjb' });
+
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('nav__mobile--open');
+    }
+    window.addEventListener('scroll', () => {
+      document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 20);
+    });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
