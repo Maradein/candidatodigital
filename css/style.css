@@ -172,6 +172,12 @@ a { color: inherit; text-decoration: none; }
 }
 .nav__logo span { color: var(--rojo); }
 
+.nav__logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
 .nav__links {
   display: flex;
   align-items: center;
