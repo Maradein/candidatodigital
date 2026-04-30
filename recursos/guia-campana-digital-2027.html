@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guía de Campaña Digital Municipal 2027 — CandidatoDigital</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Georgia', serif; color: #1a1a2e; font-size: 11pt; line-height: 1.6; }
+
+    .page { max-width: 210mm; margin: 0 auto; padding: 20mm 22mm; }
+
+    /* PORTADA */
+    .cover { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; border-left: 6px solid #1a3a6b; padding-left: 30px; }
+    .cover__tag { font-family: Arial, sans-serif; font-size: 9pt; color: #c0392b; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin-bottom: 16px; }
+    .cover__title { font-size: 32pt; font-weight: 700; color: #0d2147; line-height: 1.15; margin-bottom: 20px; }
+    .cover__sub { font-size: 13pt; color: #444; margin-bottom: 40px; }
+    .cover__brand { font-family: Arial, sans-serif; font-size: 10pt; color: #1a3a6b; font-weight: 700; margin-top: auto; padding-top: 60px; }
+    .cover__url { font-family: Arial, sans-serif; font-size: 9pt; color: #888; }
+
+    /* SECCIONES */
+    .section { margin-bottom: 32px; }
+    h2 { font-family: Arial, sans-serif; font-size: 14pt; font-weight: 700; color: #0d2147; border-bottom: 2px solid #1a3a6b; padding-bottom: 6px; margin-bottom: 14px; margin-top: 28px; }
+    h3 { font-family: Arial, sans-serif; font-size: 11pt; font-weight: 700; color: #1a3a6b; margin-top: 18px; margin-bottom: 8px; }
+    p { margin-bottom: 10px; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    li { margin-bottom: 5px; }
+
+    /* CHECKLIST */
+    .check-list { list-style: none; padding-left: 0; }
+    .check-list li { padding: 5px 0; padding-left: 28px; position: relative; }
+    .check-list li::before { content: '☐'; position: absolute; left: 0; color: #1a3a6b; font-size: 13pt; line-height: 1; }
+
+    /* DESTACADO */
+    .highlight { background: #f0f4ff; border-left: 4px solid #1a3a6b; padding: 14px 18px; margin: 16px 0; border-radius: 0 4px 4px 0; }
+    .highlight strong { color: #0d2147; }
+
+    /* TABLA */
+    table { width: 100%; border-collapse: collapse; margin: 14px 0; font-family: Arial, sans-serif; font-size: 9.5pt; }
+    th { background: #0d2147; color: white; padding: 8px 10px; text-align: left; font-weight: 600; }
+    td { padding: 7px 10px; border-bottom: 1px solid #e0e6f0; }
+    tr:nth-child(even) td { background: #f7f9ff; }
+
+    /* TIMELINE */
+    .timeline-item { border-left: 3px solid #1a3a6b; padding: 10px 0 10px 18px; margin-bottom: 14px; }
+    .timeline-item .fase { font-family: Arial, sans-serif; font-size: 9pt; color: #c0392b; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+    .timeline-item .periodo { font-family: Arial, sans-serif; font-size: 11pt; font-weight: 700; color: #0d2147; margin: 2px 0 6px; }
+
+    /* ERROR LIST */
+    .error-list { list-style: none; padding-left: 0; }
+    .error-list li { padding: 8px 0 8px 32px; position: relative; border-bottom: 1px solid #f0f0f0; }
+    .error-list li::before { content: '✗'; position: absolute; left: 8px; color: #c0392b; font-weight: 700; font-size: 13pt; }
+
+    /* FOOTER DOC */
+    .doc-footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-family: Arial, sans-serif; font-size: 8.5pt; color: #888; }
+
+    /* PRINT */
+    @media print {
+      .page { padding: 15mm 18mm; }
+      .cover { page-break-after: always; min-height: auto; padding-top: 60mm; padding-bottom: 40mm; }
+      h2 { page-break-before: auto; }
+      .no-break { page-break-inside: avoid; }
+    }
+    @page { size: A4; margin: 0; }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- PORTADA -->
+  <div class="cover">
+    <div class="cover__tag">Guía práctica · Elecciones 2027</div>
+    <h1 class="cover__title">Guía de Campaña<br>Digital Municipal<br>2027</h1>
+    <p class="cover__sub">Para candidatos en municipios de Toledo<br>y Castilla-La Mancha</p>
+    <div class="cover__brand">CandidatoDigital.es</div>
+    <div class="cover__url">candidatodigital.es · apradoszazo@gmail.com</div>
+  </div>
+
+  <!-- INTRO -->
+  <h2>Por qué necesitas este documento</h2>
+  <p>Las elecciones municipales de 2027 se ganarán, en parte, en las redes sociales. No porque las redes sean todo, sino porque el candidato que construya presencia digital antes de la campaña llegará con una ventaja que no se improvisa en seis semanas.</p>
+  <p>Esta guía te da un plan concreto, pensado para municipios de menos de 20.000 habitantes.</p>
+
+  <!-- PARTE 1 -->
+  <h2>1. Diagnóstico digital</h2>
+  <p>Antes de empezar, evalúa tu situación actual:</p>
+  <ul class="check-list">
+    <li>¿Tienes perfil en Facebook? ¿Cuándo fue tu última publicación?</li>
+    <li>¿Tienes perfil en Instagram? ¿Cuántos seguidores?</li>
+    <li>¿Tienes foto de perfil actualizada (menos de 1 año)?</li>
+    <li>¿Tienes web o página personal?</li>
+    <li>¿Publicas contenido local (no solo posts del partido)?</li>
+    <li>¿Respondes comentarios y mensajes de vecinos?</li>
+  </ul>
+  <div class="highlight">
+    <strong>Puntuación:</strong><br>
+    0–2 activos → Punto de partida bajo. Puedes empezar desde cero con criterio.<br>
+    3–4 activos → Base existente. Hay que mejorar consistencia.<br>
+    5–6 activos → Buen punto de partida. Optimizar y crecer.
+  </div>
+
+  <!-- PARTE 2 -->
+  <h2>2. Elegir tus plataformas</h2>
+  <p>No intentes estar en todo. Elige según tu perfil de votante:</p>
+
+  <div class="no-break">
+    <h3>Facebook</h3>
+    <p>Votante principal: 35–65 años. En municipios pequeños, imprescindible. Frecuencia: 3–4 veces por semana. Contenido: fotos locales, noticias del municipio, vídeos cortos.</p>
+  </div>
+
+  <div class="no-break">
+    <h3>Instagram</h3>
+    <p>Votante principal: 20–45 años. Municipios con población joven: muy recomendable. Frecuencia: 4–5 veces por semana + Stories diarios. Contenido: fotos de calidad, Stories del día a día, Reels cortos.</p>
+  </div>
+
+  <div class="no-break">
+    <h3>TikTok</h3>
+    <p>Votante principal: 16–30 años. Solo si tu municipio tiene población joven significativa. Frecuencia: 2–3 veces por semana. Contenido: vídeos directos, explicaciones breves.</p>
+  </div>
+
+  <div class="highlight">
+    <strong>Recomendación para municipios toledanos:</strong> Empieza con Facebook + Instagram. Añade TikTok solo si tienes energía y audiencia joven.
+  </div>
+
+  <!-- PARTE 3 -->
+  <h2>3. Qué publicar</h2>
+  <p>Los 5 tipos de contenido que más conectan en política local:</p>
+  <ul>
+    <li><strong>Presencia local.</strong> Fotos tuyas en el municipio, visitando negocios, en eventos. Demuestra que conoces el terreno.</li>
+    <li><strong>Propuestas concretas.</strong> No abstracciones. "Quiero arreglar el camino de X" con foto del camino. Local y específico.</li>
+    <li><strong>Detrás de las cámaras.</strong> Reuniones de trabajo, preparando documentos, recibiendo vecinos. Humaniza.</li>
+    <li><strong>Reacciones a noticias locales.</strong> Una obra que empieza, un evento del pueblo, un resultado del club local.</li>
+    <li><strong>Preguntas a la comunidad.</strong> "¿Qué mejoraríais del parque central?" Genera conversación y datos reales.</li>
+  </ul>
+
+  <h3>Lo que NO funciona</h3>
+  <ul>
+    <li>Compartir posts del partido nacional sin adaptar al municipio</li>
+    <li>Publicar solo en campaña y desaparecer después</li>
+    <li>Fotos de actos formales en mesa de reuniones</li>
+    <li>Ignorar comentarios y mensajes de vecinos</li>
+  </ul>
+
+  <!-- PARTE 4 -->
+  <h2>4. Timeline: 14 meses</h2>
+
+  <div class="timeline-item no-break">
+    <div class="fase">Fase 1</div>
+    <div class="periodo">Mayo–Agosto 2026 · Construcción</div>
+    <ul>
+      <li>Actualiza perfiles: foto, bio, datos de contacto</li>
+      <li>Publica 3 veces/semana mínimo</li>
+      <li>Objetivo: presencia habitual y conocimiento del municipio</li>
+      <li>Meta: +50 seguidores/mes, engagement &gt;3%</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item no-break">
+    <div class="fase">Fase 2</div>
+    <div class="periodo">Septiembre–Diciembre 2026 · Posicionamiento</div>
+    <ul>
+      <li>Introduce propuestas concretas (1 por semana)</li>
+      <li>Empieza a hacer preguntas a la comunidad</li>
+      <li>Responde a TODOS los comentarios y mensajes</li>
+      <li>Meta: +100 seguidores/mes, 5–10 mensajes directos/semana de vecinos</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item no-break">
+    <div class="fase">Fase 3</div>
+    <div class="periodo">Enero–Marzo 2027 · Pre-campaña</div>
+    <ul>
+      <li>Aumenta frecuencia a 5 veces/semana</li>
+      <li>Vídeos cortos explicando propuestas</li>
+      <li>Testimonios de vecinos que apoyan (con su permiso)</li>
+      <li>Meta: comunidad consolidada de 500+ seguidores locales reales</li>
+    </ul>
+  </div>
+
+  <div class="timeline-item no-break">
+    <div class="fase">Fase 4</div>
+    <div class="periodo">Abril–Mayo 2027 · Campaña</div>
+    <ul>
+      <li>Contenido diario</li>
+      <li>Stories en directo de actos</li>
+      <li>Publicidad de pago si el presupuesto lo permite</li>
+      <li>Respuesta rápida a bulos o críticas</li>
+    </ul>
+  </div>
+
+  <!-- PARTE 5 -->
+  <h2>5. Errores más comunes</h2>
+  <ul class="error-list">
+    <li><strong>Empezar tarde.</strong> En campaña ya es tarde para construir comunidad. Solo puedes activar la que ya tienes.</li>
+    <li><strong>Delegar sin supervisar.</strong> El CM puede gestionar, pero el candidato debe aportar contenido auténtico.</li>
+    <li><strong>Responder en caliente.</strong> Nunca respondas a críticas con enfado. Espera 24h o no respondas.</li>
+    <li><strong>Comprar seguidores.</strong> Destruye credibilidad y el algoritmo penaliza cuentas con baja interacción relativa.</li>
+    <li><strong>Abandonar después de las elecciones.</strong> Si ganas, mantén la presencia. Si pierdes, sigue de cara a 2031.</li>
+  </ul>
+
+  <!-- PARTE 6 -->
+  <h2>6. Presupuesto orientativo</h2>
+  <table>
+    <thead>
+      <tr><th>Concepto</th><th>Mínimo</th><th>Recomendado</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Gestión RRSS (Community Manager)</td><td>200 €/mes</td><td>400–600 €/mes</td></tr>
+      <tr><td>Contenido visual (fotos/vídeo)</td><td>0 € (móvil)</td><td>150 €/mes</td></tr>
+      <tr><td>Publicidad en redes (en campaña)</td><td>0 €</td><td>100–300 €/mes</td></tr>
+      <tr><td><strong>Total mensual</strong></td><td><strong>200 €</strong></td><td><strong>650–1.050 €</strong></td></tr>
+    </tbody>
+  </table>
+  <p>Para municipios pequeños con presupuesto ajustado: prioriza un buen CM sobre publicidad de pago.</p>
+
+  <!-- PARTE 7 -->
+  <h2>7. Métricas que importan</h2>
+  <p>No te obsesiones con los seguidores. Lo que importa de verdad:</p>
+  <ul>
+    <li><strong>Alcance local</strong> — ¿Cuántos seguidores son de tu municipio?</li>
+    <li><strong>Engagement rate</strong> — Interacciones / seguidores. Más del 3% es bueno.</li>
+    <li><strong>Mensajes directos</strong> — Señal de que los vecinos te consideran accesible.</li>
+    <li><strong>Menciones espontáneas</strong> — Vecinos que te etiquetan sin que les preguntes.</li>
+  </ul>
+
+  <!-- CONCLUSIÓN -->
+  <h2>Conclusión</h2>
+  <div class="highlight">
+    <strong>Tienes más de un año. Úsalo.</strong><br><br>
+    La ventaja competitiva en política local no la da el partido más grande ni el candidato con más dinero — la da el candidato que construye relaciones reales antes de que empiece la campaña.<br><br>
+    Empieza esta semana. No en enero.
+  </div>
+
+  <div class="doc-footer">
+    <p>Guía elaborada por <strong>CandidatoDigital.es</strong> · Estrategia digital para políticos en Toledo y Castilla-La Mancha</p>
+    <p>¿Necesitas ayuda personalizada? candidatodigital.es · apradoszazo@gmail.com</p>
+  </div>
+
+</div>
+</body>
+</html>
